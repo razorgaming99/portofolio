@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdi Dzil Ikram | Cyber Security & Backend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MATRIX BACKGROUND -->
+<canvas id="matrix"></canvas>
+
+<!-- NAVBAR (MUNCUL SAAT CURSOR KE ATAS) -->
+<nav id="navbar">
+  <div class="nav-menu">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#projects">PROJECTS</a>
+  </div>
+</nav>
+
+<!-- HERO / HOME -->
+<header id="home">
+  <img src="assets/img/profile.png" alt="Profile" class="profile">
+
+  <h1>Abdi Dzil Ikram</h1>
+  <p class="alias">aka Yoss</p>
+
+  <div class="terminal">
+    <span class="prompt">$</span>
+    <span id="command"></span>
+    <span class="cursor">▋</span>
+  </div>
+
+  <pre id="terminal-output"></pre>
+
+  <p class="subtitle">Cyber Security & Backend Engineer</p>
+
+  <div class="badges">
+    <span>Linux</span>
+    <span>C</span>
+    <span>Python</span>
+    <span>Networking</span>
+    <span>Security</span>
+    <span>Web Development</span>
+  </div>
+
+<div class="icon-buttons">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/6287770867357?text=Hello%20I%20found%20your%20portfolio" target="_blank" class="icon-btn wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M20.52 3.48A11.86 11.86 0 0012 0C5.37 0 0 5.37 0 12a11.9 11.9 0 001.64 6L0 24l6.2-1.62A11.9 11.9 0 0012 24c6.63 0 12-5.37 12-12a11.86 11.86 0 00-3.48-8.52zM12 21.8a9.7 9.7 0 01-4.95-1.36l-.35-.2-3.68.96.98-3.59-.23-.37A9.75 9.75 0 1121.75 12 9.76 9.76 0 0112 21.8zm5.32-7.3c-.29-.14-1.72-.85-1.99-.95s-.47-.14-.66.14-.76.95-.93 1.15-.34.21-.63.07a7.93 7.93 0 01-2.34-1.44 8.9 8.9 0 01-1.64-2.04c-.17-.29 0-.45.13-.59.13-.13.29-.34.44-.51a2 2 0 00.29-.49.54.54 0 000-.51c-.07-.14-.66-1.6-.9-2.19s-.47-.5-.66-.51h-.56a1.07 1.07 0 00-.78.37 3.25 3.25 0 00-1 2.42 5.65 5.65 0 001.18 2.96 12.93 12.93 0 005 4.41 5.7 5.7 0 001.63.6 3.93 3.93 0 001.8.11 2.94 2.94 0 001.93-1.36 2.42 2.42 0 00.17-1.36c-.07-.13-.27-.2-.56-.34z"/>
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/abdi-dzil-ikram-5bab3633" target="_blank" class="icon-btn linkedin" aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24">
+      <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V9h3.5v11.45zM5.31 7.43a2.03 2.03 0 110-4.06 2.03 2.03 0 010 4.06zM20.45 20.45h-3.5v-5.57c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.67h-3.5V9h3.36v1.56h.05c.47-.9 1.62-1.86 3.33-1.86 3.56 0 4.22 2.34 4.22 5.38v6.37z"/>
+    </svg>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/razorgaming99" target="_blank" class="icon-btn github" aria-label="GitHub">
+    <svg viewBox="0 0 24 24">
+      <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.57.1.78-.25.78-.56v-2.17c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.18a10.9 10.9 0 015.72 0c2.18-1.49 3.14-1.18 3.14-1.18.62 1.57.23 2.73.11 3.02.73.8 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.08.78 2.18v3.23c0 .31.21.67.79.56A11.52 11.52 0 0023.5 12C23.5 5.74 18.27.5 12 .5z"/>
+    </svg>
+  </a>
+</div>
+
+
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-content">
+    <img src="assets/img/profile.jpg" alt="Profile Photo" class="about-photo">
+
+  <h2>About</h2>
+  <p>
+    IT student with strong interest in cyber security, backend development,
+    system architecture, and secure network infrastructure.
+  </p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <img src="assets/img/sidejob.png" alt="Side Job Project">
+    <div class="project-info">
+      <h3>Backend System (SideJob Banda)</h3>
+      <p>
+        Developed backend system with authentication, database integration,
+        and secure API implementation for real-world usage.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="assets/img/automation.png" alt="Automation Script Project">
+    <div class="project-info">  
+      <h3>Automation Script (Personal Project)</h3>
+      <p class="tech">Tech: Python</p>
+      <p>
+        Developed automation scripts to handle repetitive tasks such as
+        login automation and scheduled execution, focusing on efficiency
+        and reliability.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="assets/img/network_topology.png" alt="Network Topology Simulation Project">
+    <div class="project-info">
+      <h3>Network Topology Simulation (Academic Project)</h3>
+      <p class="tech">Tech: Cisco Packet Tracer, VLSM, Routing</p>
+      <p>
+        Designed and simulated network topology using VLSM and dynamic
+        routing concepts to understand network structure, efficiency,
+        and basic security principles.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Abdi Dzil Ikram
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
